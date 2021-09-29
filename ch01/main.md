@@ -1,5 +1,6 @@
 头文件
-```
+```c
+
 #include<stdlib.h>
 #include<stdio.h>
 #ifndef _List_H
@@ -33,7 +34,8 @@ struct Node
 };
 ```
 main.c
-```
+```c
+
 #include"标头.h"
 #include<stdio.h>
 #include<stdlib.h>
