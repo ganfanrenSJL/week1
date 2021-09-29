@@ -1,5 +1,4 @@
-头文件
-```
+//头文件
 #include<stdlib.h>
 #include<stdio.h>
 #ifndef _List_H
@@ -31,9 +30,9 @@ struct Node
 	int Element;
 	Position Next;
 };
-```
-main.c
-```
+
+//main.c
+
 #include"标头.h"
 #include<stdio.h>
 #include<stdlib.h>
@@ -185,4 +184,3 @@ int main()
 	print(L);
 	return 0;
 }
-```
