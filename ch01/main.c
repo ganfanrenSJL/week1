@@ -40,7 +40,7 @@ struct Node
 List MakeEmpty(List L)
 {
 	L = malloc(sizeof(struct Node));
-	L->Next == NULL;
+	L->Next = NULL;
 	return L;
 }
 /*判断链表是否为空*/
